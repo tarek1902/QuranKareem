@@ -1,5 +1,5 @@
 #!/bin/sh
-# wget -qO - https://raw.githubusercontent.com/popking159/QuranKareem/refs/heads/main/myinstaller.sh | /bin/sh
+# wget -qO - https://raw.githubusercontent.com/tarek1902/QuranKareem/refs/heads/main/myinstaller.sh | /bin/sh
 # =========================================================================
 # QuranKareem Auto-Installer / Updater
 # Architecture-Aware and Python-Aware Downloader
@@ -8,7 +8,7 @@
 PLUGIN_NAME="QuranKareem"
 PKG_BASE="enigma2-plugin-extensions-qurankareem"
 VERSION="1.0.0"
-USERNAME="popking159"
+USERNAME="tarek1902"
 REPO="QuranKareem"
 
 # Terminal Colors
