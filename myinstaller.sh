@@ -40,10 +40,11 @@ has_cmd() {
     command -v "$1" >/dev/null 2>&1
 }
 
-echo -e "${GREEN}====================================================${NC}"
-echo -e "${GREEN}         $PLUGIN_NAME IPK INSTALLER                 ${NC}"
-echo -e "${GREEN}                  by MNASR                          ${NC}"
-echo -e "${GREEN}====================================================${NC}"
+   echo "######################################################"
+    echo "#              INSTALLED SUCCESSFULLY                #"
+    echo "#           Enigma2 restart is required              #"
+    echo "#        .::UPLOADED BY  >>>>   TAREK-HANFY::.       #"
+    echo "######################################################"
 
 # 1. Detect Package Manager
 if has_cmd opkg; then
